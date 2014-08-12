@@ -13,12 +13,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                             
     var window: UIWindow?
 
-
     func application(application: UIApplication!, didFinishLaunchingWithOptions launchOptions: NSDictionary!) -> Bool {
         self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
         // Override point for customization after application launch.
         self.window!.backgroundColor = UIColor.whiteColor()
         self.window!.makeKeyAndVisible()
+        
+        // By creating a navigation controller we will have a nav bar, and a visible title.
+
+        var navigationController = UINavigationController(rootViewController: ScoreViewController())
+        
+        // Then we can set the navigation controller as the root view controller instead of a uiviewcontroller
+        self.window?.rootViewController = navigationController
         return true
     }
 

@@ -10,6 +10,7 @@
 		7171857419981EC000C2D431 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7171857319981EC000C2D431 /* AppDelegate.swift */; };
 		7171857619981EC000C2D431 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7171857519981EC000C2D431 /* Images.xcassets */; };
 		7171858219981EC000C2D431 /* Score_Keeper_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7171858119981EC000C2D431 /* Score_Keeper_SwiftTests.swift */; };
+		7171858C19981F0200C2D431 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7171858B19981F0200C2D431 /* ScoreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +31,7 @@
 		7171857B19981EC000C2D431 /* Score-Keeper-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Score-Keeper-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7171858019981EC000C2D431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7171858119981EC000C2D431 /* Score_Keeper_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score_Keeper_SwiftTests.swift; sourceTree = "<group>"; };
+		7171858B19981F0200C2D431 /* ScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				7171857319981EC000C2D431 /* AppDelegate.swift */,
+				7171858B19981F0200C2D431 /* ScoreViewController.swift */,
 				7171857519981EC000C2D431 /* Images.xcassets */,
 				7171857119981EC000C2D431 /* Supporting Files */,
 			);
@@ -201,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7171857419981EC000C2D431 /* AppDelegate.swift in Sources */,
+				7171858C19981F0200C2D431 /* ScoreViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +310,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "Score-Keeper-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -317,6 +322,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "Score-Keeper-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -375,6 +381,7 @@
 				7171858719981EC000C2D431 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7171858819981EC000C2D431 /* Build configuration list for PBXNativeTarget "Score-Keeper-SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -383,6 +390,7 @@
 				7171858A19981EC000C2D431 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
