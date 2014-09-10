@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		716CDE8319C013A500D95C7D /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716CDE8219C013A500D95C7D /* ScoreViewController.swift */; };
 		7171857419981EC000C2D431 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7171857319981EC000C2D431 /* AppDelegate.swift */; };
 		7171857619981EC000C2D431 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7171857519981EC000C2D431 /* Images.xcassets */; };
 		7171858219981EC000C2D431 /* Score_Keeper_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7171858119981EC000C2D431 /* Score_Keeper_SwiftTests.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		716CDE8219C013A500D95C7D /* ScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
 		7171856E19981EC000C2D431 /* Score-Keeper-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Score-Keeper-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7171857219981EC000C2D431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7171857319981EC000C2D431 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				7171857319981EC000C2D431 /* AppDelegate.swift */,
+				716CDE8219C013A500D95C7D /* ScoreViewController.swift */,
 				7171857519981EC000C2D431 /* Images.xcassets */,
 				7171857119981EC000C2D431 /* Supporting Files */,
 			);
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				716CDE8319C013A500D95C7D /* ScoreViewController.swift in Sources */,
 				7171857419981EC000C2D431 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -375,6 +379,7 @@
 				7171858719981EC000C2D431 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7171858819981EC000C2D431 /* Build configuration list for PBXNativeTarget "Score-Keeper-SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -383,6 +388,7 @@
 				7171858A19981EC000C2D431 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
